@@ -98,7 +98,7 @@ function typeText(element, rawText, defaultSpeed = 40, callback) {
 const scenes = {
     scene1: {
         text: "[waitclick] It was gloomy that night. It felt like pointless to see how the days go by, as if nothing ever changes — so why even bother, right?",
-        image: "Image/Tree.png",
+        image: "Image/Bar_Alley.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene2" } 
         ]   
@@ -957,4 +957,5 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize first scene
 playBGM("sound/menu.mp3"); // Menu background music
 goTo('scene1');
+
 
