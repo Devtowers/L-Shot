@@ -160,7 +160,7 @@ const scenes = {
     },
     scene10: {
         text: "[colororange]Bartender: [resetcolor]What drink might you be interested in tonight, sir?",
-        slideshow: ["BartenderSmile1","BartenderSmile2", "BartenderSmile1"],
+        slideshow: ["Image/BartenderSmile1.png","Image/BartenderSmile2.png","Image/BartenderSmile1.png"],
         buttons: [
             { label: "I'd like to try your best seller", next: "scene12" },
             { label: "Its up to you, I'll let you decide my drink for tonight", next: "scene11" }
@@ -168,14 +168,14 @@ const scenes = {
     },
     scene11: {
         text: "He nodded, began preparing it, then casually asked—",
-        slideshow: ["BartenderSmile1","BartenderSmile2", "BartenderSmile1"],
+        slideshow: ["Image/BartenderSmile1.png","Image/BartenderSmile2.png","Image/BartenderSmile1.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene12" }
         ]
     },
     scene12: {
         text: "[colororange]Bartender: [resetcolor]Seems like it's been a while since your last drink, sir.",
-        slideshow: ["BartenderSmile1","BartenderSmile2", "BartenderSmile1"],
+        slideshow: ["Image/BartenderSmile1.png","Image/BartenderSmile2.png","Image/BartenderSmile1.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene13" }
         ]
@@ -189,7 +189,7 @@ const scenes = {
     },
     scene14: {
         text: "[colororange]Bartender: [resetcolor]There's only one bar in town and I have a good memory of people who often come here.",
-        slideshow: ["BartenderSmile1","BartenderSmile2", "BartenderSmile1"],
+        slideshow: ["Image/BartenderSmile1.png","Image/BartenderSmile2.png","Image/BartenderSmile1.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene15" }
         ]
@@ -203,7 +203,7 @@ const scenes = {
     },
     scene16: {
         text: "[colororange]Bartender: [resetcolor]Hmm…[pause1000] hoping to just to drown these thoughts of yours or just have fun.",
-        slideshow: ["BartenderSmile1","BartenderSmile2", "BartenderSmile1"],
+        slideshow: ["Image/BartenderSmile1.png","Image/BartenderSmile2.png","Image/BartenderSmile1.png"],
         buttons: [
             { label: "Exactly…", next: "scene17" },
             { label: "It is as you say", next: "scene17" }
@@ -211,7 +211,7 @@ const scenes = {
     },
     scene17: {
         text: "[colororange]Bartender: [resetcolor]I'm afraid normal drink might not suffice[pause1000], but you have come to the right place.",
-        slideshow: ["BartenderSmile1","BartenderSmile2", "BartenderSmile1"],
+        slideshow: ["Image/BartenderSmile1.png","Image/BartenderSmile2.png","Image/BartenderSmile1.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene18" }
         ]
@@ -963,6 +963,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize first scene
 playBGM("sound/menu.mp3"); // Menu background music
 goTo('scene1');
+
 
 
 
