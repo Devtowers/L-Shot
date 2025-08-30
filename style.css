@@ -31,6 +31,13 @@ h1 {color: #c0d7ee;}
     transition: opacity 1.5s;
 }
 
+#mainMenu {
+  background-image: url('Image/Background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 .box-container {
     width: 1050px;
@@ -53,52 +60,14 @@ h1 {color: #c0d7ee;}
     transform: translate(-50%, 0);
 }
 
-#deathMessage {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    font-weight: bold;
-    color: red;
-    text-shadow: 3px 3px 10px black;
-    z-index: 9999;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 1s ease-in;
-}
-
-#deathMessage.show {
-    opacity: 1;
-}
-
-#winMessage {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    font-weight: bold;
-    color: green;
-    text-shadow: 3px 3px 10px black;
-    z-index: 9999;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 1s ease-in;
-}
-
-#winMessage.show {
-    opacity: 1;
-}
-
 .TitleAnimation {
   text-align: center;
   width: 100%;
   font-family: Copperplate, Papyrus, fantasy;
   font-size: 50px;
   animation: TitleAnimation 2s ease-in-out infinite;
+  margin-top: 0;
+  position: relative;
 }
 
 .box-image {
@@ -121,6 +90,11 @@ h1 {color: #c0d7ee;}
 .OrigBtn:hover {
   transform: translateY(-12px); /* Move up by 8px */
   transition: transform 0.2s;
+}
+
+.OrigBtn {
+  justify-content: center;
+  margin-top: 50px;
 }
 
 @keyframes TitleAnimation {
@@ -190,6 +164,7 @@ h1 {color: #c0d7ee;}
   transition: transform 0.2s;
   cursor: pointer; /* Change cursor to pointer */
 }
+
 
 
 
