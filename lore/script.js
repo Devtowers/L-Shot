@@ -807,36 +807,6 @@ if (scene.music) {
     const typewriter = document.getElementById('typewriter');
     typeText(typewriter, scene.text, 40);
 
-const deathMessage = document.getElementById('deathMessage');
-
-// First, hide it immediately
-deathMessage.classList.remove('show');
-deathMessage.style.display = 'none';
-
-// If it's a death scene, delay showing it
-if (scene.color === 'red') {
-    setTimeout(() => {
-        deathMessage.style.display = 'block';
-        // Trigger fade-in if using the CSS transition
-        setTimeout(() => deathMessage.classList.add('show'), 50); // slight delay for transition
-    }, 2000);
-}
-
-
-const winMessage = document.getElementById('winMessage');
-
-// First, hide it immediately
-winMessage.classList.remove('show');
-winMessage.style.display = 'none';
-
-// If it's a win scene, delay showing it
-if (scene.color === 'green') {
-    setTimeout(() => {
-        winMessage.style.display = 'block';
-        setTimeout(() => winMessage.classList.add('show'), 50); // slight delay for transition
-    }, 4000); // 4000 milliseconds = 4 seconds
-}
-
     const boxImg = document.getElementById('boxImage');
     // Stop any previous slideshow
     if (slideshowInterval) {
@@ -985,4 +955,5 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize first scene
 playBGM("sound/menu.mp3"); // Menu background music
 goTo('scene1');
+
 
