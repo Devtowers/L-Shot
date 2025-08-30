@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Branching Story</title>
+
+<!-- Import Playfair Display font -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    body { 
+        font-family: Arial; 
+        padding: 20px; 
+        background: #f9f9f9; 
+        font-size: 20px; /* Controls the main dialogue font size */
+    }
+
+    /* Optional: class for your PLAY-style buttons */
+    .OrigBtn {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+</style>
+
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- Main Menu Overlay -->
+<div id="mainMenu" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background-image:url('Image/background.jpg'); z-index:999; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+<div class = "TitleAnimation">
+    <h1 style="color:rgb(227, 38, 38);">Isekai 101</h1>
+</div>
+    <button onclick="startGame()" class ="OrigBtn" style="margin:10px; width: 300px; height: 75px; border: none; border-radius: 35px; background:#6BFA4E; font-size:1.8em; letter-spacing:2px; text-transform:uppercase;">Start</button>
+    <button onclick="showSettings()" class ="OrigBtn" style="margin:10px; width: 300px; height: 75px; border: none; border-radius: 35px; background:rgba(254, 112, 23, 0.885); font-size:1.8em; letter-spacing:2px; text-transform:uppercase">Settings</button>
+    <button onclick="showCredits()" class ="OrigBtn" style="margin:10px; width: 300px; height: 75px; border: none; border-radius: 35px; background:rgba(252, 26, 26, 0.885); font-size:1.8em; letter-spacing:2px; text-transform:uppercase">Credits</button>
+    <div id="volumeControl" style="margin:10px; display:none;">
+        <label style="color:rgb(0, 0, 0);">Volume: </label>
+        <input type="range" min="0" max="1" step="0.01" value="1" id="volumeSlider" />
+    </div>
+    <div id="creditsScreen" style="color:rgb(0, 0, 0); margin:10px; display:none;">
+        <p>Created by Luis Torres</p>
+        <p>Co-Creator Seth Orteza</p>
+        <button onclick="hideCredits()" class="OrigBtn" style="background:rgb(255, 255, 255);">Back</button>
+    </div>
+    <div id="settingsScreen" style="color:rgb(255, 255, 255); margin:10px; display:none;">
+        <button onclick="toggleVolume()" class="OrigBtn" style="background:rgb(255, 255, 255);">Volume</button>
+        <button onclick="hideSettings()" class="OrigBtn" style="background:rgb(255, 255, 255);">Back</button>
+    </div>
+</div>
+
+<div id="gameScene" style="display:none;">
+    <div id="dialogue"></div>
+</div>
+
+<input type="range" min="0" max="0.5" step="0.01" value="0.3" id="volumeSlider" />
+
+
+<audio id="bgm" autoplay volume="0.3">
+    <source src="sound/menu.mp3" type="audio/mpeg">
+</audio>
+
+<div id="volumeControl" style="margin:10px; display:none;">
+    <label style="color:rgb(0, 0, 0);">Volume: </label>
+    <input type="range" min="0" max="0.5" step="0.01" value="0.3" id="volumeSlider" />
+</div>
+
+<div class="box-container">
+    <img id="boxImage" class="box-image" src="images/Tree.png" style="display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover;">
+    <div id="deathMessage">YOU DIED</div>
+    <div id="winMessage">YOU WIN</div>
+</div>
+
+<div id="dialogueBox">
+    <div id="typewriter"></div>
+</div>
+
+<div style="width: 200px; height: 100px; overflow: auto;"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
