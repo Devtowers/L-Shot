@@ -49,6 +49,9 @@
         <button onclick="toggleVolume()" class="OrigBtn" style="background:rgb(255, 255, 255);">Volume</button>
         <button onclick="hideSettings()" class="OrigBtn" style="background:rgb(255, 255, 255);">Back</button>
     </div>
+    <div id="messageContainer">
+        <p>Note: You should zoom the site at 80% for the best experience.</p>
+    </div>
 </div>
 
 <div id="gameScene" style="display:none;">
@@ -67,10 +70,6 @@
     <input type="range" min="0" max="0.5" step="0.01" value="0.3" id="volumeSlider" />
 </div>
 
-<div id="messageContainer">
-    <p>Note: You should zoom the site at 80% for the best experience.</p>
-</div>
-
 <div class="box-container">
     <img id="boxImage" class="box-image" src="images/Tree.png" style="display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover;">
     <div id="deathMessage">YOU DIED</div>
@@ -87,4 +86,5 @@
 
 </body>
 </html>
+
 
