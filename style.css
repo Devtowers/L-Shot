@@ -1,7 +1,7 @@
 body {
   font-family: 'Arial', sans-serif;
   background-color: #3a2317;
-  background-image: url("Image/background.jpg");
+  background-image: url("Image/background2.jpg");
   color: #333;
   margin: 0;
   padding: 0; /* Remove padding for perfect centering */
@@ -164,6 +164,7 @@ h1 {color: #c0d7ee;}
   transition: transform 0.2s;
   cursor: pointer; /* Change cursor to pointer */
 }
+
 
 
 
