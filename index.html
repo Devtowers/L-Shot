@@ -6,7 +6,7 @@
 <title>Simple Branching Story</title>
 
 <!-- Import Playfair Display font -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
 
 <style>
     body { 
@@ -29,13 +29,13 @@
 <body>
 
 <!-- Main Menu Overlay -->
-<div id="mainMenu" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background-image:url('Image/background.jpg'); z-index:999; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+<div id="mainMenu" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background-image:url('Image/Background.jpg'); z-index:500; display:flex; flex-direction:column; padding: 40px;">
 <div class = "TitleAnimation">
-    <h1 style="color:rgb(227, 38, 38);">Lé Shot</h1>
+    <h1 style="color:rgb(0, 0, 0); margin-left: 50px;">Lé Shot</h1>
 </div>
-    <button onclick="startGame()" class ="OrigBtn" style="margin:10px; width: 300px; height: 75px; border: none; border-radius: 35px; background:#6BFA4E; font-size:1.8em; letter-spacing:2px; text-transform:uppercase;">Start</button>
-    <button onclick="showSettings()" class ="OrigBtn" style="margin:10px; width: 300px; height: 75px; border: none; border-radius: 35px; background:rgba(254, 112, 23, 0.885); font-size:1.8em; letter-spacing:2px; text-transform:uppercase">Settings</button>
-    <button onclick="showCredits()" class ="OrigBtn" style="margin:10px; width: 300px; height: 75px; border: none; border-radius: 35px; background:rgba(252, 26, 26, 0.885); font-size:1.8em; letter-spacing:2px; text-transform:uppercase">Credits</button>
+    <button onclick="startGame()" class ="OrigBtn" style="margin:10px; margin-left: 75px; width: 300px; height: 75px; border: none; border-radius: 35px; background:#6BFA4E; font-size:1.8em; letter-spacing:2px; align-items:flex-start; text-transform:uppercase;">Start</button>
+    <button onclick="showSettings()" class ="OrigBtn" style="margin:10px; margin-left: 75px; width: 300px; height: 75px; border: none; border-radius: 35px; background:rgba(254, 112, 23, 0.885); font-size:1.8em; letter-spacing:2px; align-items:flex-start; text-transform:uppercase">Settings</button>
+    <button onclick="showCredits()" class ="OrigBtn" style="margin:10px; margin-left: 75px; width: 300px; height: 75px; border: none; border-radius: 35px; background:rgba(252, 26, 26, 0.885); font-size:1.8em; letter-spacing:2px; align-items:flex-start; text-transform:uppercase">Credits</button>
     <div id="volumeControl" style="margin:10px; display:none;">
         <label style="color:rgb(0, 0, 0);">Volume: </label>
         <input type="range" min="0" max="1" step="0.01" value="1" id="volumeSlider" />
@@ -86,6 +86,7 @@
 
 </body>
 </html>
+
 
 
 
