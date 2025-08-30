@@ -18,6 +18,12 @@ h1 {color: #c0d7ee;}
     z-index: 5000;
     text-align: right;
     padding: 10px;
+    transition: opacity 1s ease; 
+}
+
+#messageContainer.fade-out {
+    opacity: 0;
+    pointer-events: none;
 }
 
 #mainMenu, #gameScene {
@@ -184,5 +190,6 @@ h1 {color: #c0d7ee;}
   transition: transform 0.2s;
   cursor: pointer; /* Change cursor to pointer */
 }
+
 
 
