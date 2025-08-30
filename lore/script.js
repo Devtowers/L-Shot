@@ -985,3 +985,4 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize first scene
 playBGM("sound/menu.mp3"); // Menu background music
 goTo('scene1');
+
