@@ -3,9 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Simple Branching Story</title>
+<title>Lé Shot</title>
 
-<!-- Import Playfair Display font -->
 <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
 
 <style>
@@ -28,8 +27,8 @@
 
 <body>
 
-<!-- Main Menu Overlay -->
-<div id="mainMenu" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background-image:url('Image/coverart.jpg'); z-index:500; display:flex; flex-direction:column; padding: 40px;">
+    <!-- Main Menu Overlay -->
+<div id="mainMenu" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background-image:url('Image/coverart.png'); z-index:500; display:flex; flex-direction:column; padding: 40px;">
 <div class = "TitleAnimation">
     <h1 style="color:rgb(0, 0, 0); margin-left: 50px;">Lé Shot</h1>
 </div>
@@ -49,9 +48,9 @@
         <button onclick="toggleVolume()" class="OrigBtn" style="background:rgb(255, 255, 255);">Volume</button>
         <button onclick="hideSettings()" class="OrigBtn" style="background:rgb(255, 255, 255);">Back</button>
     </div>
-<div id="messageContainer">
-    <p>Note: You should zoom the site at 80% for the best experience.</p>
-</div>
+    <div id="messageContainer">
+        <p>Note: You should zoom the site at 80% for the best experience.</p>
+    </div>
 </div>
 
 <div id="gameScene" style="display:none;">
@@ -60,18 +59,17 @@
 
 <input type="range" min="0" max="0.5" step="0.01" value="0.3" id="volumeSlider" />
 
-
-<audio id="bgm" autoplay volume="0.3">
-    <source src="sound/menu.mp3" type="audio/mpeg">
-</audio>
-
 <div id="volumeControl" style="margin:10px; display:none;">
     <label style="color:rgb(0, 0, 0);">Volume: </label>
     <input type="range" min="0" max="0.5" step="0.01" value="0.3" id="volumeSlider" />
 </div>
 
+<audio id="bgm" autoplay volume="0.3">
+    <source src="sound/menu.mp3" type="audio/mpeg">
+</audio>
+
 <div class="box-container">
-    <img id="boxImage" class="box-image" src="images/Tree.png" style="display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover;">
+    <img id="boxImage" class="box-image" src="Image/Tree.png" style="display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover;">
 </div>
 
 <div id="dialogueBox">
@@ -84,6 +82,7 @@
 
 </body>
 </html>
+
 
 
 
