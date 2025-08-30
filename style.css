@@ -61,10 +61,10 @@ h1 {color: #c0d7ee;}
 }
 
 .TitleAnimation {
-  text-align: center;
+  text-align: left;
   width: 100%;
-  font-family: Copperplate, Papyrus, fantasy;
-  font-size: 50px;
+  font-family: 'Allura', cursive;
+  font-size: 70px;
   animation: TitleAnimation 2s ease-in-out infinite;
   margin-top: 0;
   position: relative;
@@ -164,6 +164,7 @@ h1 {color: #c0d7ee;}
   transition: transform 0.2s;
   cursor: pointer; /* Change cursor to pointer */
 }
+
 
 
 
