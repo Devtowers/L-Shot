@@ -847,7 +847,12 @@ if (scene.music) {
 }
 }
 
-let bgm = null;
+document.addEventListener("click", () => {
+  const bgm = document.getElementById("bgm");
+  bgm.muted = false;
+  bgm.play();
+}, { once: true });
+
 let volumeSlider = null;
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -963,6 +968,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize first scene
 playBGM("sound/menu.mp3"); // Menu background music
 goTo('scene1');
+
 
 
 
