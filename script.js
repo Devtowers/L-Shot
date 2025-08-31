@@ -509,14 +509,14 @@ const scenes = {
     },
     scene59a: {
         text: "The empty cup sat in my hand. I glanced around — the counter, the drinks, the others still lost in thought... nothing changed...[pause1000] When the bartender, who had just returned from outside, saw me, he finally broke the silence",
-        slideshow: ["Image/LastSet.png","Image/DrinkPikit3.png"],
+        slideshow: ["Image/DrinkPikit4.png","Image/Drink2.png","Image/Bystander.png","Image/BartenderSmile1.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene60a" }
         ]
     },
     scene60a: {
         text: "[colororange]Bartender: [resetcolor]Heh. It was really your first time drinking in a while. So... how was it?",
-        slideshow: ["Image/DrinkPikit4.png","Image/Drink2.png","Image/Bystander.png","Image/BartenderSmile1.png"],
+        slideshow: ["Image/BartenderSmile1.png","Image/BartenderSmile2.png","Image/BartenderSmile1.png"],
         buttons: [
             { label: "WHY?!! Nothing has changed at all.", next: "scene61a" },
             { label: "Are you joking me?", next: "scene61a" }
@@ -963,6 +963,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize first scene
 playBGM("sound/menu.mp3"); // Menu background music
 goTo('scene1');
+
 
 
 
