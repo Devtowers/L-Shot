@@ -388,7 +388,7 @@ const scenes = {
     },
     scene43: {
         text: "[color#00008B]Antoine: [resetcolor][colorgray](Should I really say it to the boy the things I always wanted to say to him, to finally have a difference)",
-        image: "Imagebedroom4.png",
+        image: "Image/bedroom4.png",
         buttons: [
             { label: "Say it to him", next: "scene44z" },
             { label: "Don't say it to him", next: "scene44b" }
@@ -963,6 +963,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize first scene
 playBGM("sound/menu.mp3"); // Menu background music
 goTo('scene1');
+
 
 
 
