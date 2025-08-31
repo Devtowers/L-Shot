@@ -225,42 +225,42 @@ const scenes = {
     },
     scene19: {
         text: "[colororange]Bartender: [resetcolor]If you don't mind, I have the perfect drink for someone like you tonight — 'A Shot to the Past.",
-        image: "Image/BartenderDrink1.png",
+        image: "Image/Bartenderdrink1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene20" }
         ]
     },
     scene20: {
         text: "[color#00008B]Antoine: [resetcolor]A shot to the past? Is that something that'll magically send me back?",
-        image: "Image/BartenderDrink2.png",
+        image: "Image/Bartenderdrink2.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene21" }
         ]
     },
     scene21: {
         text: "[colororange]Bartender: [resetcolor]Maybe.",
-        slideshow: ["Image/BartenderMixing1","Image/BartenderMixing2.png", "Image/BartenderMixing1","Image/BartenderMixing2.png"],
+        slideshow: ["Image/BartenderMixing1.png","Image/BartenderMixing2.png", "Image/BartenderMixing1.png","Image/BartenderMixing2.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene22" }
         ]
     },
     scene22: {
         text: "[color#00008B]Antoine: [resetcolor]Then I'd gladly tell myself a few things. So I wouldn't end up like this — miserable, stuck in the same place, still being bothered by the things meant to be left behind in the past, like a rope forcing me into this direction I didn't wish for myself. I can't even trust myself to escape this entanglement.",
-        slideshow: ["Image/BartenderMixing1","Image/BartenderMixing2.png", "Image/BartenderMixing1","Image/BartenderMixing2.png"],
+        slideshow: ["Image/BartenderMixing1.png","Image/BartenderMixing2.png", "Image/BartenderMixing1.png","Image/BartenderMixing2.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene23" }
         ]
     },
     scene23: {
         text: "[color#00008B]Antoine: [resetcolor]And those people saying, Just believe in yourself' or 'Pull harder until you break free'? Screw that. I already gave it my all. Is it because its not within their standard of sheer effort? I still feel stuck.[pause1000] ...What is this? I haven't even had a drink yet, and I'm already crashing out.",
-        slideshow: ["Image/BartenderMixing1","Image/BartenderMixing2.png", "Image/BartenderMixing1","Image/BartenderMixing2.png"],
+        slideshow: ["Image/BartenderMixing1.png","Image/BartenderMixing2.png", "Image/BartenderMixing1.png","Image/BartenderMixing2.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene24" }
         ]
     },
     scene24: {
         text: "[colororange]Bartender: [resetcolor]Here's your drink, sir. A Shot to the Past.",
-        image: "Image/BartenderDrink3.png",
+        image: "Image/Bartenderdrink3.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene25" }
         ]
@@ -274,7 +274,7 @@ const scenes = {
     },
     scene26: {
         text: "[colororange]Bartender: [resetcolor]Everyone says the same. But mind you — you can only drink this once in your lifetime. Once you do, there's no second chance.",
-        slideshow: ["Image/BartenderDrink4","Image/BartenderDrink5.png"],
+        slideshow: ["Image/BartenderDrink4.png","Image/BartenderDrink5.png"],
         buttons: [
             { label: "Even if I try to steal it forcefully?", next: "scene27" },
             { label: "Even if I memorize the content?", next: "scene27" }
@@ -282,7 +282,7 @@ const scenes = {
     },
     scene27: {
         text: "[colororange]Bartender: [resetcolor]You can't. No matter what trick you think of. That's the rule. You can't drink it more than once or—",
-        slideshow: ["Image/BartenderDrink4","Image/BartenderDrink5.png"],
+        slideshow: ["Image/BartenderDrink4.png","Image/BartenderDrink5.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene28" }
         ]
@@ -296,7 +296,7 @@ const scenes = {
     },
     scene29: {
         text: "[colororange]Bartender: [resetcolor]Its going to be a wild night sir.",
-        slideshow: ["Image/BartenderDrink4","Image/BartenderDrink5.png"],
+        slideshow: ["Image/BartenderDrink4.png","Image/BartenderDrink5.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene30" }
         ]
@@ -324,42 +324,42 @@ const scenes = {
     },
     scene34: {
         text: "What the— ughh. What is this feeling? I'm dizzy as hell.[pause1000] ...Huh? Is this our old house? Is that— me?",
-        image: "Image/Bedroom1.png",
+        image: "Image/bedroom1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene35" }
         ]
     },
     scene35: {
         text: "[color#00008B]Antoine: [resetcolor][colorgray](I never expected to actually time travel.)",
-        image: "Image/Bedroom1.png",
+        image: "Image/bedroom1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene36" }
         ]
     },
     scene36: {
         text: "[color#00008B]Antoine: [resetcolor][colorgray](Heh. The good old days.[pause1000] Sorry, kid. Your happiness won't last.)",
-        image: "Image/Bedroom1.png",
+        image: "Image/bedroom1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene37" }
         ]
     },
     scene37: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]What are you talking about?",
-        image: "Image/Bedroom1.png",
+        image: "Image/bedroom1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene38" }
         ]
     },
     scene38: {
         text: "[color#00008B]Antoine: [resetcolor]Huh? Can you hear me?",
-        image: "Image/Bedroom1.png",
+        image: "Image/bedroom1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene39" }
         ]
     },
     scene39: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Yeah. I'm just busy doing stuff. Who are you?",
-        slideshow: ["Image/Bedroom4.png","Image/Bedroom3.png","Image/Bedroom4.png"],
+        slideshow: ["Image/bedroom4.png","Image/bedroom3.png","Image/bedroom4.png"],
         buttons: [
             { label: "Wow. You're surprisingly calm at your age.", next: "scene40" },
             { label: "I'm you, but many years later into the future", next: "scene40" }
@@ -367,28 +367,28 @@ const scenes = {
     },
     scene40: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Yea, you kinda look like me. So, time travel's a thing in the future?",
-        slideshow: ["Image/Bedroom4.png","Image/Bedroom3.png","Image/Bedroom4.png"],
+        slideshow: ["Image/bedroom4.png","Image/bedroom3.png","Image/bedroom4.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene41" }
         ]
     },
     scene41: {
         text: "[color#00008B]Antoine: [resetcolor]You could say that. [colorgray](I didn't think a 'Shot to the Past' would literally send me back.)",
-        slideshow: ["Image/Bedroom4.png","Image/Bedroom3.png","Image/Bedroom4.png"],
+        slideshow: ["Image/bedroom4.png","Image/bedroom3.png","Image/bedroom4.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene42" }
         ]
     },
     scene42: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Whoaaa~ That's cool.[pause1000]  Something to look forward to i guess.[pause500] So are you here to tell me my future?",
-        slideshow: ["Image/Bedroom4.png","Image/Bedroom3.png","Image/Bedroom4.png"],
+        slideshow: ["Image/bedroom4.png","Image/bedroom3.png","Image/bedroom4.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene43" }
         ]
     },
     scene43: {
         text: "[color#00008B]Antoine: [resetcolor][colorgray](Should I really say it to the boy the things I always wanted to say to him, to finally have a difference)",
-        image: "Image/Bedroom4.png",
+        image: "Imagebedroom4.png",
         buttons: [
             { label: "Say it to him", next: "scene44z" },
             { label: "Don't say it to him", next: "scene44b" }
@@ -396,77 +396,77 @@ const scenes = {
     },
     scene44z: {
         text: "[color#00008B]Antoine: [resetcolor]So... I guess I should tell you everything...",
-        image: "Image/Bedroom4.png",
+        image: "Image/bedroom4.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene44a" }
         ]
     },
     scene44a: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Huh..[pause1000] Your life is so miserable, mister. I don't wanna be you.",
-        slideshow: ["Image/Bedroom4.png","Image/Bedroom2.png","Image/Bedroom4.png"],
+        slideshow: ["Image/bedroom4.png","Image/bedroom2.png","Image/bedroom4.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene45a" }
         ]
     },
     scene45a: {
         text: "[color#00008B]Antoine: [resetcolor]That's why I'm here.[pause1000] To help you.",
-        image: "Image/Bedroom4.png",
+        image: "Image/bedroom4.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene46a" }
         ]
     },
     scene46a: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]But if I change now, you might disappear.",
-        slideshow: ["Image/Bedroom4.png","Image/Bedroom2.png","Image/Bedroom4.png"],
+        slideshow: ["Image/bedroom4.png","Image/bedroom2.png","Image/bedroom4.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene47a" }
         ]
     },
     scene47a: {
         text: "[color#00008B]Antoine: [resetcolor]Why would you think that?",
-        image: "Image/Bedroom4.png",
+        image: "Image/bedroom4.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene48a" }
         ]
     },
     scene48a: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Because everything that happened… turned me into you.",
-        slideshow: ["Image/Bedroom4.png","Image/Bedroom2.png","Image/Bedroom4.png"],
+        slideshow: ["Image/bedroom4.png","Image/bedroom2.png","Image/bedroom4.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene49a" }
         ]
     },
     scene49a: {
         text: "[color#00008B]Antoine: [resetcolor][colorgray](Is it worth it achieving my life this way now in exchange of...[pause1000] erasing myself?)",
-        image: "Image/Bedroom4.png",
+        image: "Image/bedroom4.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene50a" }
         ]
     },
     scene50a: {
         text: "[color#00008B]Antoine: [resetcolor]I DON'T CARE, AS LONG AS YOU PROMISE TO NEVER BE LIKE ME!",
-        image: "Image/Bedroom5.png",
+        image: "Image/bedroom5.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene51a" }
         ]
     },
     scene51a: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Mister, why?!",
-        slideshow: ["Image/Bedroom5.png","Image/Bedroom6.png","Image/Bedroom5.png"],
+        slideshow: ["Image/bedroom5.png","Image/bedroom6.png","Image/bedroom5.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene52a" }
         ]
     },
     scene52a: {
         text: "[color#00008B]Antoine: [resetcolor]There is not much hope left anyway for me, now I might have the chance to change it, to hope again.",
-        image: "Image/Bedroom5.png",
+        image: "Image/bedroom5.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene53a" }
         ]
     },
     scene53a: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Mister, I'm sorry your life turned out to be this way but...",
-        slideshow: ["Image/Bedroom5.png","Image/Bedroom6.png","Image/Bedroom5.png"],
+        slideshow: ["Image/bedroom5.png","Image/bedroom6.png","Image/bedroom5.png"],
         buttons: [
             { label: "CAN YOU DO IT?!!", next: "scene54a" },
             { label: "Sorry for forcing you kid, just please hear my request.", next: "scene54a" }
@@ -474,21 +474,21 @@ const scenes = {
     },
     scene54a: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Mister...",
-        slideshow: ["Image/Bedroom5.png","Image/Bedroom6.png","Image/Bedroom5.png"],
+        slideshow: ["Image/bedroom5.png","Image/bedroom6.png","Image/bedroom5.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene55a" }
         ]
     },
     scene55a: {
         text: "As I watched him still fazed due to my sudden behavior and request, I suddenly heard a voice- a voice I hadn't heard in so long. Loud, calm, and familiar.",
-        image: "Image/Bedroom5.png",
+        image: "Image/bedroom5.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene56a" }
         ]
     },
     scene56a: {
         text: "[colorred]Mother: [resetcolor]Antoine!!",
-        image: "Image/Bedroom5.png",
+        image: "Image/bedroom5.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene57a" }
         ]
@@ -531,7 +531,7 @@ const scenes = {
     },
     scene62a: {
         text: "[color#00008B]Antoine: [resetcolor]WHY?! WHY DIDN'T IT CHANGE ANYTHING?! WHY?!!",
-        slideshow: ["Image/BartenderAngry1.png"],
+        image: "Image/BartenderAngry1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene63a" }
         ]
@@ -559,14 +559,14 @@ const scenes = {
     },
     scene66a: {
         text: "[color#00008B]Antoine: [resetcolor]I'll stay. I'll just get my head straight.",
-        slideshow: ["Image/BartenderSmile1.png"],
+        image: "Image/BartenderSmile1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene67a" }
         ]
     },
     scene67a: {
         text: "[color#00008B]Antoine: [resetcolor][colorgray]As my head gets clearer, my attention was caught by the painting from earlier.",
-        slideshow: ["Image/Painting1.png"],
+        image: "Image/Painting1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene68a" }
         ]
@@ -579,7 +579,7 @@ const scenes = {
         ]
     },
      scene69a: {
-        slideshow: ["Image/Thankyou.png"],
+        image: "Image/Thankyou.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene1" }
         ]
@@ -593,7 +593,7 @@ scene44b: {
     },
     scene45b: {
         text: "[color#00008B]Antoine: [resetcolor]How's the family?",
-        slideshow: ["Image/bedroom4"],
+        image: "Image/bedroom4",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene46b" }
         ]
@@ -607,7 +607,7 @@ scene44b: {
     },
     scene47b: {
         text: "[color#00008B]Antoine: [resetcolor]They didn't even bother to let you go with them?",
-        slideshow: ["Image/bedroom4.png"],
+        image: "Image/bedroom4.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene48b" }
         ]
@@ -621,35 +621,35 @@ scene44b: {
     },
     scene49b: {
         text: "[color#00008B]Antoine: [resetcolor]What is that project?",
-        slideshow: ["Image/bedroom1.png"],
+        image: "Image/bedroom1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene50b" }
         ]
     },
     scene50b: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Its just a painting project, it may be messy but there is something that I want out of it, yet I can't seem to get it",
-        slideshow: ["Image/bedroom1.png"],
+        image: "Image/bedroom1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene51b" }
         ]
     },
     scene51b: {
         text: "[color#00008B]Antoine: [resetcolor]Hmm! that's cool!!",
-        slideshow: ["Image/bedroom1.png"],
+        image: "Image/bedroom1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene52b" }
         ]
     },
     scene52b: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Yeah, but it's hard... [pause1000] I just can't seem to get it right.",
-        slideshow: ["Image/bedroom2.png"],
+        image: "Image/bedroom2.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene53b" }
         ]
     },
     scene53b: {
         text: "[color#00008B]Antoine: [resetcolor]You can do it kid. I trust you. [colorgray](Wow — “trust”[pause1000]  came out of my mouth?)",
-        slideshow: ["Image/bedroom4.png"],
+        image: "Image/bedroom4.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene54b" }
         ]
@@ -663,21 +663,21 @@ scene44b: {
     },
     scene55b: {
         text: "As I watched him draw and looked around our old room, I suddenly heard a voice—[pause1000]  a voice I hadn't heard in so long. Loud, calm, and familiar.",
-        slideshow: ["Image/bedroom1.png"],
+        image: "Image/bedroom1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene56b" }
         ]
     },
     scene56b: {
         text: "[color#ededed]Mother: [resetcolor]Antoine!!",
-        slideshow: ["Image/LastSet.png"],
+        image: "Image/LastSet.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene57b" }
         ]
     },
     scene57b: {
         text: "[color#00FFFF]Kid Antoine: [resetcolor]Ma!",
-        slideshow: ["Image/LastSet.png"],
+        image: "Image/LastSet.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene58b" }
         ]
@@ -713,14 +713,14 @@ scene44b: {
     },
     scene62b: {
         text: "[color#00008B]Antoine: [resetcolor]Well, it was a little disappointing. ",
-        slideshow: ["Image/BartenderSmile1.png"],
+        image: "Image/BartenderSmile1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene63b" }
         ]
     },
     scene62c: {
         text: "[color#00008B]Antoine: [resetcolor]...It really was a shot to the past. ",
-        slideshow: ["Image/BartenderSmile1.png"],
+        image: "Image/BartenderSmile1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene63b" }
         ]
@@ -741,21 +741,21 @@ scene44b: {
     },
     scene64b: {
         text: "[color#00008B]Antoine: [resetcolor]Sure, let me get a new one.",
-        slideshow: ["Image/BartenderSmile1.png"],
+        image: "Image/BartenderSmile1.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene65b" }
         ]
     },
     scene65b: {
         text: "[color#00008B]Antoine: [resetcolor][colorgray]As my head gets clearer, my attention was caught by the painting from earlier.",
-        slideshow: ["Image/Painting2.png"],
+        image: "Image/Painting2.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene66" }
         ]
     },
     scene66b: {
         text: "[color#00008B]Antoine: [resetcolor][colorgray](What a night. All I wanted was a drink to drown my thoughts only to resurface what I left behind.)",
-        slideshow: ["Image/Painting2.png"],
+        image: "Image/Painting2.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene67b" }
         ]
@@ -768,7 +768,7 @@ scene44b: {
         ]
     },
     scene68b: {
-        slideshow: ["Thankyou.png"],
+        image: "Thankyou.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene1" }
         ]
@@ -963,6 +963,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize first scene
 playBGM("sound/menu.mp3"); // Menu background music
 goTo('scene1');
+
 
 
 
