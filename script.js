@@ -904,7 +904,6 @@ function startGame() {
     const menu = document.getElementById('mainMenu');
     const message = document.getElementById("messageContainer");
     message.classList.add("fade-out");
-    playBGM("sound/.mp3"); // Game background music
     menu.style.transition = 'opacity 1.5s';
     menu.style.opacity = 0;
 
@@ -966,8 +965,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // Initialize first scene
-playBGM("sound/menu.mp3"); // Menu background music
+playBGM("sound/pia.mp3"); // Menu background music
 goTo('scene1');
+
 
 
 
