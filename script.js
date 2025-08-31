@@ -593,7 +593,7 @@ scene44b: {
     },
     scene45b: {
         text: "[color#00008B]Antoine: [resetcolor]How's the family?",
-        image: "Image/bedroom4",
+        image: "Image/bedroom4.png",
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene46b" }
         ]
@@ -722,7 +722,7 @@ scene44b: {
         text: "[color#00008B]Antoine: [resetcolor]...It really was a shot to the past. ",
         image: "Image/BartenderSmile1.png",
         buttons: [
-            { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene63b" }
+            { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene63c" }
         ]
     },
     scene63b: {
@@ -750,7 +750,7 @@ scene44b: {
         text: "[color#00008B]Antoine: [resetcolor][colorgray]As my head gets clearer, my attention was caught by the painting from earlier.",
         image: "Image/Painting2.png",
         buttons: [
-            { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene66" }
+            { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene66b" }
         ]
     },
     scene66b: {
@@ -764,7 +764,7 @@ scene44b: {
         text: "[colororange]Bartender: [resetcolor]It seems that it's going to be a long night, sir.",
         slideshow: ["Image/Painting2.png","Image/DrinkPikit3.png"],
         buttons: [
-            { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene68" }
+            { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene68b" }
         ]
     },
     scene68b: {
@@ -963,6 +963,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize first scene
 playBGM("sound/menu.mp3"); // Menu background music
 goTo('scene1');
+
 
 
 
