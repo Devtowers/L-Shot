@@ -23,7 +23,7 @@ We built the project using:
 ⇢ CSS → for styling and design
 ⇢ JavaScript → for handling choices and interactivity
 
-We also used W3Schools tutorials to learn and apply coding concepts like.
+We also used W3Schools tutorials to learn and apply coding concepts.
 
 • Customization
 
