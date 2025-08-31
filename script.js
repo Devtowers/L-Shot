@@ -691,7 +691,7 @@ scene44b: {
     },
     scene59b: {
         text: "The empty cup sat in my hand. I glanced around — the counter, the drinks, the others still lost in thought... nothing changed...[pause1000] When the bartender, who had just returned from outside, saw me, he finally broke the silence",
-        slideshow: ["Image/DrinkPikit4.png","Image/Drink2.png,","Image/Bystander.png","Image/BartenderSmile1.png"],
+        slideshow: ["Image/DrinkPikit4.png","Image/Drink2.png","Image/Bystander.png","Image/BartenderSmile1.png"],
         buttons: [
             { image: "https://res.cloudinary.com/dzths7uts/image/upload/v1755795457/next_ryafkw.png", next: "scene60b" }
         ]
@@ -963,6 +963,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize first scene
 playBGM("sound/menu.mp3"); // Menu background music
 goTo('scene1');
+
 
 
 
